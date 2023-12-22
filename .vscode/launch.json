@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "occurence_count",
+            "request": "launch",
+            "mainClass": "dsawithjava.question.occurence_count",
+            "projectName": "JAVA_e009660"
+        },
+        {
+            "type": "java",
             "name": "fibbonaci_series",
             "request": "launch",
             "mainClass": "dsawithjava.question.fibbonaci_series",
