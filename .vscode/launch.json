@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "fibbonaci_series",
+            "request": "launch",
+            "mainClass": "dsawithjava.question.fibbonaci_series",
+            "projectName": "JAVA_e009660"
+        },
+        {
+            "type": "java",
+            "name": "alphabat_case_check",
+            "request": "launch",
+            "mainClass": "dsawithjava.question.alphabat_case_check",
+            "projectName": "JAVA_e009660"
+        },
+        {
+            "type": "java",
             "name": "largest_num",
             "request": "launch",
             "mainClass": "dsawithjava.question.largest_num",
