@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "largest_num",
+            "request": "launch",
+            "mainClass": "dsawithjava.question.largest_num",
+            "projectName": "JAVA_e009660"
+        },
+        {
+            "type": "java",
+            "name": "do_while_loop",
+            "request": "launch",
+            "mainClass": "dsawithjava.do_while_loop",
+            "projectName": "JAVA_e009660"
+        },
+        {
+            "type": "java",
+            "name": "while_loop",
+            "request": "launch",
+            "mainClass": "dsawithjava.while_loop",
+            "projectName": "JAVA_e009660"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "for_loop",
+            "request": "launch",
+            "mainClass": "dsawithjava.for_loop",
+            "projectName": "JAVA_e009660"
+        },
+        {
+            "type": "java",
+            "name": "if_else",
+            "request": "launch",
+            "mainClass": "dsawithjava.if_else",
+            "projectName": "JAVA_e009660"
+        },
+        {
+            "type": "java",
+            "name": "java01",
+            "request": "launch",
+            "mainClass": "dsawithjava.java01",
+            "projectName": "JAVA_e009660"
+        }
+    ]
+}
