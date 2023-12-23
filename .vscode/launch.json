@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "overloading",
+            "request": "launch",
+            "mainClass": "dsawithjava.overloading",
+            "projectName": "JAVA_e009660"
+        },
+        {
+            "type": "java",
+            "name": "vari_leng_args",
+            "request": "launch",
+            "mainClass": "dsawithjava.vari_leng_args",
+            "projectName": "JAVA_e009660"
+        },
+        {
+            "type": "java",
+            "name": "shadowing",
+            "request": "launch",
+            "mainClass": "dsawithjava.shadowing",
+            "projectName": "JAVA_e009660"
+        },
+        {
+            "type": "java",
+            "name": "a_multi_sum_of_b_c",
+            "request": "launch",
+            "mainClass": "dsawithjava.question.a_multi_sum_of_b_c",
+            "projectName": "JAVA_e009660"
+        },
+        {
+            "type": "java",
+            "name": "function",
+            "request": "launch",
+            "mainClass": "dsawithjava.function",
+            "projectName": "JAVA_e009660"
+        },
+        {
+            "type": "java",
+            "name": "nested_switch",
+            "request": "launch",
+            "mainClass": "dsawithjava.nested_switch",
+            "projectName": "JAVA_e009660"
+        },
+        {
+            "type": "java",
+            "name": "switch_case",
+            "request": "launch",
+            "mainClass": "dsawithjava.switch_case",
+            "projectName": "JAVA_e009660"
+        },
+        {
+            "type": "java",
             "name": "java02",
             "request": "launch",
             "mainClass": "dsawithjava.java02",
