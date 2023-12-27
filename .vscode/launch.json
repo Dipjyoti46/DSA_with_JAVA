@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "two_sum",
+            "request": "launch",
+            "mainClass": "com.leetcode_dipjyoti.two_sum",
+            "projectName": "JAVA_e009660"
+        },
+        {
+            "type": "java",
+            "name": "prime_num",
+            "request": "launch",
+            "mainClass": "dsawithjava.question.prime_num",
+            "projectName": "JAVA_e009660"
+        },
+        {
+            "type": "java",
             "name": "overloading",
             "request": "launch",
             "mainClass": "dsawithjava.overloading",

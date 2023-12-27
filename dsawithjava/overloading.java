@@ -21,7 +21,7 @@ public class overloading {
         sum=num1+num2;
         System.out.println("The sum of two integer is :"+sum);
     }
-     static void sum(int num1,int num2,int num3){
+    static void sum(int num1,int num2,int num3){
         int sum;
         sum=num1+num2+num3;
         System.out.println("The sum of three integer is :"+sum);
