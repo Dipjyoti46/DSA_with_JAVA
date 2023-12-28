@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "max_value",
+            "request": "launch",
+            "mainClass": "dsawithjava.question.max_value",
+            "projectName": "JAVA_e009660"
+        },
+        {
+            "type": "java",
+            "name": "swap_in_arrr",
+            "request": "launch",
+            "mainClass": "dsawithjava.question.swap_in_arrr",
+            "projectName": "JAVA_e009660"
+        },
+        {
+            "type": "java",
+            "name": "multiD_dynamic_arr",
+            "request": "launch",
+            "mainClass": "dsawithjava.multiD_dynamic_arr",
+            "projectName": "JAVA_e009660"
+        },
+        {
+            "type": "java",
+            "name": "dyna_array",
+            "request": "launch",
+            "mainClass": "dsawithjava.dyna_array",
+            "projectName": "JAVA_e009660"
+        },
+        {
+            "type": "java",
+            "name": "TwoD_array",
+            "request": "launch",
+            "mainClass": "dsawithjava.TwoD_array",
+            "projectName": "JAVA_e009660"
+        },
+        {
+            "type": "java",
             "name": "two_sum",
             "request": "launch",
             "mainClass": "com.leetcode_dipjyoti.two_sum",
