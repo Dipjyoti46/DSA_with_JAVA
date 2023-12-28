@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "reverrse_num",
+            "request": "launch",
+            "mainClass": "dsawithjava.question.reverrse_num",
+            "projectName": "JAVA_e009660"
+        },
+        {
+            "type": "java",
             "name": "max_value",
             "request": "launch",
             "mainClass": "dsawithjava.question.max_value",
