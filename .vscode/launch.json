@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "search_in_2d",
+            "request": "launch",
+            "mainClass": "searching.search_in_2d",
+            "projectName": "JAVA_e009660"
+        },
+        {
+            "type": "java",
+            "name": "search_in_range",
+            "request": "launch",
+            "mainClass": "searching.search_in_range",
+            "projectName": "JAVA_e009660"
+        },
+        {
+            "type": "java",
             "name": "linner_search",
             "request": "launch",
             "mainClass": "searching.linner_search",

@@ -1,4 +1,4 @@
-package searching;
+package dsawithjava.searching;
 
 import java.util.Scanner;
 
