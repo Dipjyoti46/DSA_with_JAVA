@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "longest_substring",
+            "request": "launch",
+            "mainClass": "com.leetcode_dipjyoti.longest_substring",
+            "projectName": "JAVA_e009660"
+        },
+        {
+            "type": "java",
+            "name": "avg_of_two_arrList",
+            "request": "launch",
+            "mainClass": "com.leetcode_dipjyoti.avg_of_two_arrList",
+            "projectName": "JAVA_e009660"
+        },
+        {
+            "type": "java",
             "name": "search_in_2d",
             "request": "launch",
             "mainClass": "searching.search_in_2d",
