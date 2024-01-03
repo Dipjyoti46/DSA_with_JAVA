@@ -1,35 +1,40 @@
 package com.leetcode_dipjyoti;
-
-import java.sql.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
-
 public class longest_substring {
     public static void main(String[] args) {
     String orig1="abcabcdc";
     String orig2="pwwkew";
-    findString(orig1);
-    findString(orig2);
+    System.out.println("First string "+findString(orig1));
+    System.out.println("Second string "+findString(orig2));
     }
     static String findString(String str){
-        String substr="";
-        ArrayList<String> temp_arr=new ArrayList<String>(0);//temp
-        ArrayList<String> temp_str=new ArrayList<String>(0);//copy
+        String string="";
+        String temp="";
+        String long_str="";
         for (int i = 0; i < str.length(); i++) {
-            temp_str.add(str.charAt(i), str);
-        }
-    
-
-        for (int i = 0; i < temp_str.size(); i++) {
-            if(temp_arr.size()==0){
-                temp_arr[i]=temp_str[i];
-                
+            if(string.isEmpty()==true){
+                string=string+str.charAt(i);
             }
+            else{
+                for (int j = 0  ; j < string.length(); j++) {
+                    if(string.charAt(j)!=str.charAt(i)){
+                        if (j==string.length()-1) {
+                            string=string+str;
+                        }
+                    }
+                    else{
+                     temp=string;
+                     string="";
+                     break;
+                    }
 
-
+                }
+            }
+            if (temp.length()>long_str.length()) {
+                long_str=temp;
+            }
         }
 
-        return substr;
+        return long_str;
     }
 }
 
