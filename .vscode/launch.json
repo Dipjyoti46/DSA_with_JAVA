@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InnerClass",
+            "request": "launch",
+            "mainClass": "dsawithjava.oops.InnerClass",
+            "projectName": "JAVA_e009660"
+        },
+        {
+            "type": "java",
+            "name": "static_nonStatic",
+            "request": "launch",
+            "mainClass": "dsawithjava.oops.static_nonStatic",
+            "projectName": "JAVA_e009660"
+        },
+        {
+            "type": "java",
+            "name": "oops_pr",
+            "request": "launch",
+            "mainClass": "dsawithjava.oops.oops_pr",
+            "projectName": "JAVA_e009660"
+        },
+        {
+            "type": "java",
+            "name": "num_of_even_digit_nums",
+            "request": "launch",
+            "mainClass": "com.leetcode_dipjyoti.num_of_even_digit_nums",
+            "projectName": "JAVA_e009660"
+        },
+        {
+            "type": "java",
             "name": "longest_substring",
             "request": "launch",
             "mainClass": "com.leetcode_dipjyoti.longest_substring",
